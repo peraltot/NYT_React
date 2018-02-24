@@ -6,9 +6,9 @@ You can goto the deplyed app via heroku using the URL: https://tranquil-river-53
 
 ## Description
 
-This application implements a express, mongoose, cheerio and node to provide a user friendly GUI that allows for a management of current articles from CNN. 
+This application implements a express, mongoose, react and node to provide a user friendly GUI that allows for a management of current articles from New York Times. 
 
-You can refresh the articles by using the "Scrape articles button"
+You can refresh the articles by changing your search criteria and selecting the "Submit" button
 
 ## Install
 
