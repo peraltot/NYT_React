@@ -27492,7 +27492,7 @@
 	            React.createElement(
 	              'strong',
 	              null,
-	              'New York Times Article Scrubber'
+	              'Scrub It the New York Times'
 	            )
 	          )
 	        ),
@@ -29128,7 +29128,7 @@
 	            React.createElement(
 	              'em',
 	              null,
-	              'Oops! It looks like you haven\'t saved any articles yet!'
+	              'WHAAT! You have not saved any articles?'
 	            )
 	          )
 	        )

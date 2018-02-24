@@ -16,9 +16,17 @@ app.use(express.static('./public'));
 
 // var link = 'process.env.MONGODB_URI';
 //Local link
-var link = 'mongodb://localhost/nytreact';
+// var link = 'mongodb://localhost/nytreact';
+// mongoose.connect(link);
 
-mongoose.connect(link);
+var databaseUri = "mongodb://localhost/nytreact";
+
+if (process.env.MONGODB_URI) {
+    mongoose.connect(process.env.MONGODB_URI);
+} else {
+    mongoose.connect(databaseUri);
+}
+
 var db = mongoose.connection;
 
 db.on('error', function (err) {
